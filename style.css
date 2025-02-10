@@ -133,14 +133,17 @@ ul{
     align-items: center;
     
 }
-.daily,
-.monthly,
-.weekly{
+.tab{
     justify-content: space-between;
     display:flex;
     align-items: center;
-    
+    visibility:collapse;
 }
+
+.active_tab{
+    visibility: visible;
+}
+
 li{
     cursor: pointer;
     color:var(--Desaturatedblue);
@@ -148,9 +151,7 @@ li{
 .active{
     color:white;
 }
-.hidden{
-    display: none;
-}
+
 
 .work{
     background-color: var(--Lightred-work);
@@ -202,9 +203,7 @@ li{
         color:white;
     }
    
-    .daily,
-    .weekly,
-    .monthly{
+    .tab{
         flex-direction:column;
         justify-content:start;
         align-items: normal;
