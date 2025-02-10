@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Time tracking dashboard</title>
+  <link rel="stylesheet" href="/reset.css">
+  <link rel="stylesheet" href="/style.css">
+  <script defer src="/JavaScript.js"></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+  <div class="main_container">
+    <div class="header">
+      <div class="profile_container">
+        <img src="./images/image-jeremy.png" alt="Jeremy Robson">
+        <div class="profile_info">
+          <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+        </div>
+      </div>
+      <ul>
+        <li class="active">Daily</li>
+        <li>Weekly</li>
+        <li>Monthly</li>
+      </ul>
+        
+    </div>
+      
+  
+    <div class="cards_container">
+
+      <div class="type">
+        <div class="back_img work"><img src="images/icon-work.svg"></div>
+        <div class="info_container">
+          <div class="title">
+            <h1>Work</h1>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class=" daily">
+            <h2>5hrs</h2>
+            <p>Previous - 7hrs</p>
+          </div>
+          <div class="weekly hidden">
+            <h2>32hrs</h2>
+            <p>Previous - 36hrs</p>
+          </div>
+          <div class="monthly hidden">
+            <h2>103hrs</h2>
+            <p>Previous - 128hrs</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="type">
+        <div class="back_img play"><img src="images/icon-play.svg"></div>
+        <div class="info_container">
+          <div class="title">
+            <h1>Play</h1>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="daily">
+            <h2>1hr</h2>
+            <p>Previous - 2hrs</p>
+          </div>
+          <div class="weekly hidden">
+            <h2>10hrs</h2>
+            <p>Previous - 8hrs</p>
+          </div>
+          <div class="monthly hidden">
+            <h2>23hrs</h2>
+            <p>Previous - 29hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="type">
+        <div class="back_img study"><img src="images/icon-study.svg"></div>
+        <div class="info_container">
+          <div class="title">
+            <h1>Study</h1>
+            <img src="images/icon-ellipsis.svg" alt="ellipsis">
+          </div>
+          <div class="daily">
+            <h2>0hrs</h2>
+            <p>Previous - 1hr</p>
+          </div>
+          <div class="weekly hidden">
+            <h2>4hrs</h2>
+            <p>Previous - 7hrs</p>
+          </div>
+          <div class="monthly hidden">
+            <h2>13hrs</h2>
+            <p>Previous - 19hrs</p>
+          </div>
+        </div>
+      </div>
+    <div class="type">
+      <div class="back_img exercise"><img src="images/icon-exercise.svg"></div>
+      <div class="info_container">
+        <div class="title">
+          <h1>Exercise</h1>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="daily">
+          <h2>1hr</h2>
+          <p>Previous - 1hr</p>
+        </div>
+        <div class="weekly">
+          <h2>4hrs</h2>
+          <p>Previous - 5hrs</p>
+        </div>
+        <div class="monthly">
+          <h2>11hrs</h2>
+          <p>Previous - 18hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="type">
+      <div class="back_img social"><img src="images/icon-social.svg"></div>
+      <div class="info_container">
+        <div class="title">
+          <h1>Social</h1>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="daily">
+          <h2>1hr</h2>
+          <p>Previous - 3hrs</p>
+        </div>
+        <div class="weekly">
+          <h2>5hrs</h2>
+          <p>Previous - 10hrs</p>
+        </div>
+        <div class="monthly">
+          <h2>21hrs</h2>  
+          <p>Previous - 23hrs</p>
+        </div>
+      </div>
+    </div>
+    <div class="type">
+      <div class="back_img selfcare"><img src="images/icon-self-care.svg"></div>
+      <div class="info_container">
+        <div class="title">
+          <h1>Self Care</h1>
+          <img src="images/icon-ellipsis.svg" alt="ellipsis">
+        </div>
+        <div class="daily">
+          <h2>0hrs</h2>
+          <p>Previous - 1hr</p>
+        </div>
+        <div class="weekly">
+          <h2>2hrs</h2>
+          <p>Previous - 2hrs</p>
+        </div>
+        <div class="monthly">
+          <h2>7hrs</h2>
+          <p>Previous - 11hrs</p>
+        </div>
+      </div>  
+    </div>
+  </div>
+</div>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
