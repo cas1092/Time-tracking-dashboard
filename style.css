@@ -27,14 +27,15 @@ body{
     min-height: 100vh;
     gap:0.5rem;
 }
-.main_container{
+main{
     width: 90%;
     gap:1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:5rem auto;
+    margin:0 10%;
+    min-height: 100vh;
     
 }
 .header{
